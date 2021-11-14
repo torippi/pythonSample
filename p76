@@ -1,0 +1,16 @@
+title = 'book'
+
+#print(title)
+print(f'test{title}')
+
+#タプル
+items = ('apple','orange','banana')
+for item in items:
+    print(f'{item}は美味しい')
+
+try:
+    items[0] = ('meron')
+except TypeError:
+    print('タプルだよ')
+
+print(items)
